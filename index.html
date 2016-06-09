@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h1>Test test</h1>
+        <script src="./src/shift.js"></script>
+        <script>
+
+            var shift = new Shift(function(e) { 
+                                    self.postMessage('msg from worker');
+                                })
+
+            shift.worker.onmessage = function(e) {
+                console.log("Received: " + e.data);
+            }
+
+            shift.start();
+
+            console.log(shift);
+
+        </script>
+    </body>
+</html>
