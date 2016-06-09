@@ -1,0 +1,23 @@
+{
+  "name": "shiftjs",
+  "version": "0.0.1",
+  "description": "Simple wrapper for web workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpgmartin/shiftJS.git"
+  },
+  "author": "Tom Martin <tom@tpgmartin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpgmartin/shiftJS/issues"
+  },
+  "homepage": "https://github.com/tpgmartin/shiftJS#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
